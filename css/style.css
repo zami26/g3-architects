@@ -33,10 +33,11 @@ li {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
     color: #424242;
 }
-.color{
+
+.color {
     color: #424242;
 }
 
@@ -80,10 +81,74 @@ a {
 .image-style {
     margin: 10px;
 }
-.span{
+
+.span {
     color: #FF900E;
 }
-.text-heading{
-    font-size:3rem;
+
+.text-heading {
+    font-size: 3rem;
     font-weight: 500;
+}
+
+.features-box {
+    margin: 50px 240px;
+    display: flex;
+}
+
+.features {
+    width: 50%;
+    margin-right: 80px;
+}
+
+.features-heading {
+    padding-left: 7px;
+    border-left: 3px solid #FF900E;
+}
+
+.cart {
+    padding: 15px;
+    margin-bottom: 17px;
+    box-shadow:
+        0 0 0 2px white,
+        0.3em 0.3em 1em rgba(114, 111, 111, 0.774);
+}
+
+.cart h4 {
+    margin: 0px;
+    margin-left: 8px;
+}
+
+.cart p {
+    margin: 8px;
+}
+
+.experience {
+    width: 90%;
+    background-image: url("../images/architect.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 150px;
+}
+
+.experience-box {
+    width: 320px;
+    height: 180px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.experience-box h1{
+    margin: 0px;
+
+}
+.experience-box p{
+    margin: 5px;
 }
