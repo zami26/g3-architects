@@ -143,57 +143,161 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.experience-box h1{
+
+.experience-box h1 {
     margin: 0px;
 
 }
-.experience-box p{
+
+.experience-box p {
     margin: 5px;
 }
-.fact{
+
+.fact {
     margin: 80px 240px;
 }
-.fact-heading{
+
+.fact-heading {
     width: 43%;
 }
-.progress-box{
+
+.progress-box {
     margin: 100px 0px;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
 }
-.progress-box h1{
+
+.progress-box h1 {
     margin: 0px;
 }
-.progress-box h3{
+
+.progress-box h3 {
     margin: 8px;
 }
-.progress{
+
+.progress {
     border: 1.5px solid #FF900E;
     text-align: center;
     padding: 30px 20px;
     border-radius: 4px;
 }
 
-.sponsors{
+.sponsors {
     margin: 50px 240px;
 }
 
-.sponsors-details{
+.sponsors-details {
     width: 40%;
     text-align: center;
     margin: 20px auto;
 }
-.company{
+
+.company {
     display: flex;
     justify-content: space-between;
     margin: 50px 0px;
 }
-footer{
+
+footer {
     margin: 100px 240px 200px 240px;
     text-align: center;
-    background-color:rgba(255, 144, 14, 0.10) ;
+    background-color: rgba(255, 144, 14, 0.10);
     padding: 20px 0px;
     border-radius: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:430px) {
+    header {
+        padding: 0px;
+        margin-left: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    ul {
+        padding: 0px;
+    }
+
+    li {
+        margin-left: 30px;
+    }
+
+    .banner {
+        width: 90%;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .team{
+        margin: 15px;
+        flex-direction: column;
+    }
+    .team-pic{
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    .team-text{
+        width: 80%;
+        text-align: center;
+    }
+    .features-box{
+        flex-direction: column;
+        margin: 0px 20px;
+    }
+    .features{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .experience{
+        width: 100%;
+        margin-left: 5px;
+        background-size: 100%;
+    }
+    .experience-box{
+        margin-top: 100%;
+        margin-left: 25px;
+    }
+    .fact{
+        margin: 80px 0px;
+    }
+    .fact-heading{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+    .progress-box{
+        flex-direction: column;
+    }
+    .progress{
+        width: 55%;
+        margin: 10px auto;
+    }
+    .sponsors{
+        margin: 50px 0px;
+    }
+    .sponsors-details{
+        width: 80%;
+    }
+    .company{
+        /* flex-direction: column; */
+    }
+.company>img{
+    width: 20%;
+    margin-right: 10px;
+}
+    footer{
+        margin: 20px 10px 40px 10px;
+    }
 }
