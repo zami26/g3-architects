@@ -1,56 +1,89 @@
 /* Font family importing from google font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+
+body {
     font-family: "Work Sans", sans-serif;
 }
 
-header{
+header {
     background-color: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
-nav{
-display: flex;
-justify-content: space-between;
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
-.nav-title{
+
+.nav-title {
     font-size: 2.8rem;
     font-weight: 700;
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
 }
-li{
+
+li {
     list-style: none;
     margin-left: 30px;
     font-weight: 500;
     font-size: 1rem;
 }
-a{
-    text-decoration: none;
+
+a {
+    text-decoration: none; 
+    color: #424242;
+}
+.color{
     color: #424242;
 }
 
-.banner{
+.banner {
     text-align: center;
     width: 800px;
-    margin:0px auto ;
+    margin: 0px auto;
 }
-.banner-title{
-    font-size:4rem ;
+
+.banner-title {
+    font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
 
-.banner-text{
+.banner-text {
     color: #727272;
 }
-.btn-primary{
-    background-color: orange;
+
+.btn-primary {
+    background-color: #FF900E;
     color: white;
     font-weight: 600;
-    padding:15px 20px;
-    border:0px;
+    padding: 15px 20px;
+    border: 0px;
     border-radius: 5px;
     margin-bottom: 50px;
+}
+
+.team {
+    margin: 80px 240px;
+    display: flex;
+    align-items: center;
+}
+
+.team-pic {
+    display: flex;
+    margin-right: 50px;
+}
+
+.image-style {
+    margin: 10px;
+}
+.span{
+    color: #FF900E;
+}
+.text-heading{
+    font-size:3rem;
+    font-weight: 500;
 }
