@@ -152,3 +152,48 @@ a {
 .experience-box p{
     margin: 5px;
 }
+.fact{
+    margin: 80px 240px;
+}
+.fact-heading{
+    width: 43%;
+}
+.progress-box{
+    margin: 100px 0px;
+    display: flex; 
+    justify-content: space-between;
+}
+.progress-box h1{
+    margin: 0px;
+}
+.progress-box h3{
+    margin: 8px;
+}
+.progress{
+    border: 1.5px solid #FF900E;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 4px;
+}
+
+.sponsors{
+    margin: 50px 240px;
+}
+
+.sponsors-details{
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+footer{
+    margin: 100px 240px 200px 240px;
+    text-align: center;
+    background-color:rgba(255, 144, 14, 0.10) ;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
